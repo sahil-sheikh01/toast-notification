@@ -63,7 +63,7 @@ body {
     height: 80px;
     background: #fff;
     font-weight: 500;
-    margin: 15px 0;
+    margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@ body {
 
 @media(max-width: 768px) {
     .container{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #toast-box{
         right: 10px;
