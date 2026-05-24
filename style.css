@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 
 .container h1 {
@@ -111,4 +111,14 @@ body {
 
 .toast.invalid::after {
     background-color: orange;
+}
+
+@media(max-width: 768px) {
+    .container{
+        margin-left: 30px;
+    }
+    #toast-box{
+        right: 10px;
+        bottom: 10px;
+    }
 }
